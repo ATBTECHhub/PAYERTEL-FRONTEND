@@ -1,21 +1,45 @@
-import React from 'react'
-
+import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import { MdMenu } from "react-icons/md";
 const Navbar = () => {
   return (
-     <nav className='flex justify-between container text-[#0436b6] pt-6 '>
-    <span className='font-bold text-xl'>PAYERTEL</span>
-    <ul className='flex gap-6 '>
-      <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Service</a></li>
-      <li><a href="">Contact</a></li>
-    </ul>
-      <div className='flex space-x-6 pb-4'>
-      <a href="" className='border rounded-lg px-6 py-1 bg-blue-900 text-white'>Create Account</a> 
-      <a href="" className='border rounded-lg  px-6 py-1 text-black border-sky-500 hover:bg-sky-400 duration-1000'>Login</a>
-     </div>
+    <nav className=" text-[#0436b6]  h-[75px] py-6 fixed w-full z-[2]  flex items-center">
+      <div className="container flex justify-between items-center">
+        <Link to="/" className="font-bold text-xl">
+          PAYERTEL
+        </Link>
+        <ul className="lg:flex gap-6 hidden ">
+          <li>
+            <NavLink to="/">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+          <li>
+            <NavLink to="/services">Service</NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact">Contact</NavLink>
+          </li>
+        </ul>
+        <div className="lg:flex space-x-6 hidden">
+          <Link
+            to="signup"
+            className="border rounded-lg px-4 py-[10px] bg-blue-900 text-white"
+          >
+            Create Account
+          </Link>
+          <Link
+            to="login"
+            className="border rounded-lg  px-4 py-[10px] text-black border-sky-500 hover:bg-sky-400 duration-1000"
+          >
+            Login
+          </Link>
+        </div>
+        <MdMenu className="lg:hidden"/>
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
