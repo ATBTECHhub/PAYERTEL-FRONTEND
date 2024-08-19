@@ -23,7 +23,7 @@ const Dashboard = () => {
           <PiBellSimpleRingingBold className="w-[33px] h-10" />
         </div>
       </nav>
-      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-full bg-primary">
+      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-[40px] bg-primary">
         {" "}
         <div className="text-center">
           {" "}
@@ -40,17 +40,7 @@ const Dashboard = () => {
               <FaCirclePlus />
             </i>
           </div>
-          <div className="flex items-center text-center">
-            <a
-              className="border rounded-full py-4 px-14 leading-tight "
-              href=""
-            >
-              Withdraw
-            </a>
-            <i className="absolute pl-36">
-              <GoDownload />
-            </i>
-          </div>
+        
         </div>
       </div>
       <div className="flex container py-[115px] justify-center items-center space-x-20">

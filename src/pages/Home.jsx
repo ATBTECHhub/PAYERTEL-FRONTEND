@@ -24,7 +24,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About/>
-      {/* <Values />
+      <Values />
        <Process/>
       <TheWhy />
       <Start/>
@@ -37,7 +37,7 @@ const Home = () => {
        <Databundle/>
        <Cash/>
        <Cabletv/>
-       <Airtime/> */}
+       <Airtime/>
     </>
   );
 }

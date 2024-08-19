@@ -501,3 +501,9 @@ export const cable = [
 `,
   },
 ]; 
+export const hero = [
+  {
+    heading: "Seamless and Efficient Telecom Solutions at Your Fingertips",
+  
+  },
+];

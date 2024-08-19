@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 import { GoDownload } from "react-icons/go";
 import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 import { PiBellSimpleRingingBold } from "react-icons/pi";
 import { FaCirclePlus } from "react-icons/fa6";
-import { bundle, foot, leg } from '../constant/data';
+import { bundle, foot, leg } from "../constant/data";
 import { IoMdArrowDropdown } from "react-icons/io";
-
 
 const Cash = () => {
   return (
@@ -24,7 +23,7 @@ const Cash = () => {
           <PiBellSimpleRingingBold className="w-[33px] h-10" />
         </div>
       </nav>
-      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-full bg-primary">
+      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-[40px] bg-primary">
         {" "}
         <div className="text-center">
           {" "}
@@ -39,17 +38,6 @@ const Cash = () => {
             </a>
             <i className="absolute pl-40">
               <FaCirclePlus />
-            </i>
-          </div>
-          <div className="flex items-center text-center">
-            <a
-              className="border rounded-full py-4 px-14 leading-tight "
-              href=""
-            >
-              Withdraw
-            </a>
-            <i className="absolute pl-36">
-              <GoDownload />
             </i>
           </div>
         </div>
@@ -70,7 +58,6 @@ const Cash = () => {
         ))}
       </div>
       <div className="py-[50px] w-[50%] mx-auto space-y-8">
-        
         <div className="grid">
           {" "}
           <label className="pb-3 font-semibold" htmlFor="">
@@ -166,6 +153,6 @@ const Cash = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Cash
+export default Cash;

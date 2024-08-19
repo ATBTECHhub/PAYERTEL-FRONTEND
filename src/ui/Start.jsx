@@ -2,10 +2,10 @@ import React from "react";
 
 const Start = () => {
   return (
-    <section className="container ">
-      <div className="flex justify-center">
-        <div className="inset-y-1/2 py-[200px]">
-          <h1 className="font-bold text-[64px] leading-[78px] w-[528px] h-[200px]">
+    <section className="container py-[100px] lg:py-[150px]">
+      <div className="flex justify-center ">
+        <div className="inset-y-1/2 py-[200px lg:py-[150px]">
+          <h1 className="font-bold lg:text-[64px] lg:leading-[78px] w-[528px] h-[200px] text-[48px] leading-[60px]">
             {" "}
             Get Started With <span className="text-primary">PAYERTEL</span>{" "}
             Today!
@@ -26,9 +26,9 @@ const Start = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="lg:w-full">
           <img
-            className=" h-[700px] w-[900px]"
+            className=" h-[700px] lg:w-[900px] w-full object-cover"
             src="/image/startgal.png"
             alt=""
           />

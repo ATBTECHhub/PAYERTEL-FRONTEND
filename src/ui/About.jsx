@@ -1,24 +1,32 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <section className='flex items-center justify-between about'>
-      <div className='w-[900px] pt-28 pl-8 h-screen'>
-        <img src="/image/about2.png" alt="" />
-      </div>
-      <div className='text-right pr-16 pt-16'>
-       <div className='flex items-center'> <hr className='w-28 h-1 mx-auto my-4 bg-black' />
-        <h2 className='font-bold text-black pr-28'>ABOUT</h2></div>
-        <h1 className='text-5xl leading-tight font-bold  text-[#0436b6] pb-28'>Seamless Data <br /> Reacharges For <br /> Uninterrupted <br /> Connectivity</h1>
-        <p className='leading-7 pb-60'>
-          Payertel is a comprehensive platform designed to address <br /> the telecom needs
-          of users by offering services <br /> such as; Data Bundle Purchases, Airtime Top-Ups, 
-          Airtime <br /> to Cash Conversions  and Cable Network Subscriptions. <br /> The platform  aims to
-          provide these services at competitive <br /> rates while ensuring a seamless user experience.
-        </p>
+    <section className="container aboutpage py-12 lg:py-20 lg:pl-40">
+      <div className="space-y-[30px] lg:space-y-[50px]">
+        <div className="text-right">
+          <h1 className="font-semibold text-xl text-right  lg:text-2xl">
+            ABOUT
+          </h1>
+        </div>
+        <div className="text-right space-y-[50px] lg:space-y-[70px]">
+          {" "}
+          <h1 className="font-bold  text-[48px]  lg:text-[64px] leading-[60px] lg:leading-[78px]">
+            Seamless Data <br /> Recharges For <br /> Uninterrupted <br />{" "}
+            Connectivity
+          </h1>
+          <p className=" leading-[28px] font-normal text-xl lg:leading-[32px lg:text-base">
+            PAYERTEL is a comprehensive platform designed to address the <br />{" "}
+            telecom needs of users by offering services such as data bundle{" "}
+            <br /> purchases, airtime top-ups, airtime to cash consersions, and
+            cable <br /> network subscriptions. The platform aims to provide
+            these <br /> services at competitive rates while ensuring a seamless
+            user <br /> experience.
+          </p>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

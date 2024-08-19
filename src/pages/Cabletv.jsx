@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import { PiBellSimpleRingingBold } from "react-icons/pi";
 import { GoDownload } from "react-icons/go";
 import { FaCirclePlus } from "react-icons/fa6";
-import { cable, foot, leg } from '../constant/data';
+import { cable, foot, leg } from "../constant/data";
 import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
@@ -23,7 +23,7 @@ const Cabletv = () => {
           <PiBellSimpleRingingBold className="w-[33px] h-10" />
         </div>
       </nav>
-      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-full bg-primary">
+      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-[40px] bg-primary">
         {" "}
         <div className="text-center">
           {" "}
@@ -40,7 +40,6 @@ const Cabletv = () => {
               <FaCirclePlus />
             </i>
           </div>
-         
         </div>
       </div>
       <h1 className="font-semibold text-[45px] text-center m-11">Cable Tv</h1>
@@ -119,8 +118,8 @@ const Cabletv = () => {
             <a className="bg-white py-3 px-8 rounded-lg" href="">
               Start Today{" "}
             </a>
-            <i className='absolute pl-32'>
-              <FaLongArrowAltRight className='w-3 h-3' />
+            <i className="absolute pl-32">
+              <FaLongArrowAltRight className="w-3 h-3" />
             </i>
           </div>
         </div>
@@ -147,6 +146,6 @@ const Cabletv = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Cabletv
+export default Cabletv;

@@ -44,3 +44,9 @@
   position: relative;
   background-position: top;
 }
+.aboutpage{
+  background-image: url(../public/image/about2.png);
+  background-size: cover;
+  position: relative;
+  background-position: top;
+}

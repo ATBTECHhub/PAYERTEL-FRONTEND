@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
 const Navbar = () => {
   return (
-    <nav className=" text-[#0436b6]  h-[75px] py-6 fixed w-full z-[2]  flex items-center">
+    <nav className=" text-[#0436b6]  h-[75px] py-6 fixed w-full z-[2]  flex items-center ">
       <div className="container flex justify-between items-center">
         <Link to="/" className="font-bold text-xl">
           PAYERTEL

@@ -5,19 +5,19 @@ import { IoIosMailUnread } from "react-icons/io";
 
 const Support = () => {
   return (
-    <section className="flex container gap-[35px] py-[120px]">
-      <div className="w-[638px] h-[521px]">
-        <img src="/image/customer.png" alt="" />
+    <section className="flex container gap-[35px] py-[120px]  lg:py-[150px]">
+      <div className="lg:w-1/2">
+        <img className="w-full  object-cover" src="/image/customer.png" alt="" />
       </div>
-      <div className="py-10">
+      <div className="py-10 lg:w-1/2">
         {" "}
-        <h1 className="w-[400px] h-[49px] text-[40px] leading-[48px] font-semibold text-primary">
+        <h1 className="text-[32px] leading-[40px] font-semibold text-primary lg:text-[40px] lg:leading-[48px]">
           Customer support
         </h1>
-        <h2 className="w-[633px]  text-[35px] leading-[48px] font-semibold py-10">
+        <h2 className="w-[633px]  text-[28px] leading-[40px] lg:text-35px] lg:leading-[40px] font-semibold py-10">
           We Are Here To Assist You With Any Enquiries.
         </h2>
-        <div className="py-[130px]  flex gap-[70px] ">
+        <div className="lg:py-[130px]  flex gap-[70px] py-80">
           {" "}
           <div>
             {" "}
@@ -25,7 +25,9 @@ const Support = () => {
               {" "}
               <TbPhonePause className="w-[50px] h-[50px]" />
             </div>
-            <h3 className="w-[199px] text-center text-primary font-semibold">Phone Number</h3>
+            <h3 className="lg:w-[199px] text-center text-primary font-semibold">
+              Phone Number
+            </h3>
             <p className="text-center mt-2">07053467892</p>
           </div>
           <div className="">

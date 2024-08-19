@@ -37,9 +37,9 @@ const Airtime = () => {
             <IoEyeSharp className="w-6 h-6" />
           </i>
         </div>
-        <div className="flex items-center pl-20 bg-white">
+        <div className="flex items-center pl-20">
           <a
-            className="border-[5px] rounded-full py-4 px-12 leading-tight text-primary"
+            className="border-[5px] rounded-full py-4 px-12 leading-tight "
             href=""
           >
             Fund Wallet

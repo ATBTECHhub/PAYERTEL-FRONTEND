@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import { PiBellSimpleRingingBold } from "react-icons/pi";
 import { FaCirclePlus } from "react-icons/fa6";
 import { GoDownload } from "react-icons/go";
-import { bundle, foot, leg } from '../constant/data';
+import { bundle, foot, leg } from "../constant/data";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 
@@ -23,7 +23,7 @@ const Databundle = () => {
           <PiBellSimpleRingingBold className="w-[33px] h-10" />
         </div>
       </nav>
-      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-full bg-primary">
+      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-[40px] bg-primary">
         {" "}
         <div className="text-center">
           {" "}
@@ -38,17 +38,6 @@ const Databundle = () => {
             </a>
             <i className="absolute pl-40">
               <FaCirclePlus />
-            </i>
-          </div>
-          <div className="flex items-center text-center">
-            <a
-              className="border rounded-full py-4 px-14 leading-tight "
-              href=""
-            >
-              Withdraw
-            </a>
-            <i className="absolute pl-36">
-              <GoDownload />
             </i>
           </div>
         </div>
@@ -178,6 +167,6 @@ const Databundle = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Databundle
+export default Databundle;

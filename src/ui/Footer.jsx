@@ -5,8 +5,8 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="container pl-6 bg-primary py-14 px-8 ">
-      <div className="flex space-x-[126px]">
+    <section className=" pl-6 bg-primary py-14 px-8 lg:px-20">
+      <div className="flex space-x-[160px]">
         {foot.map((item, i) => (
           <div dangerouslySetInnerHTML={{ __html: item.image }} />
         ))}
@@ -31,11 +31,13 @@ const Footer = () => {
             <li>Cable Network Subscription</li>
           </ul>
         </div>
-        <div className="flex items-center">
-          <a className="bg-white py-3 px-6 rounded-lg" href="">
+        <div className=" items-center flex ">
+          <a className="bg-white py-3 px-8 rounded-lg" href="">
             Start Today{" "}
           </a>
-
+          <i className="absolute pl-32">
+            <FaLongArrowAltRight className="w-3 h-3" />
+          </i>
         </div>
       </div>
       <div className=" py-[60px]">
