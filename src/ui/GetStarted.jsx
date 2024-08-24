@@ -1,6 +1,6 @@
 import { FadeIn } from "./FadeIn";
 
-const Start = () => {
+const GetStarted = () => {
   return (
     <FadeIn>
       <section className="border-gray-200 py-10 pl-4 border">
@@ -34,4 +34,4 @@ const Start = () => {
   );
 };
 
-export default Start;
+export default GetStarted;

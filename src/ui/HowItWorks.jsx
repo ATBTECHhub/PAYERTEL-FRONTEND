@@ -1,6 +1,6 @@
 import { FadeIn } from "./FadeIn";
 
-const Process = () => {
+const HowItWorks = () => {
   return (
     <FadeIn>
       <section className="px-4 py-8 md:py-10">
@@ -88,4 +88,4 @@ const Process = () => {
   );
 };
 
-export default Process;
+export default HowItWorks;

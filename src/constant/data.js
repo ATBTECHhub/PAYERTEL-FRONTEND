@@ -1,26 +1,26 @@
 export const services = [
   {
-    image: "src/icon/data.svg",
+    image: "/icon/data.svg",
     title: `Data Bundle Purchase`,
     desc: "Get the best data plans at competitive rates.",
   },
   {
-    image: "src/icon/airtime.svg",
+    image: "/icon/airtime.svg",
     title: `Airtime Top Ups`,
     desc: "Making online recharge has become very easy and safe. also any time of the day.",
   },
   {
-    image: "src/icon/tv.svg",
+    image: "/icon/tv.svg",
     title: `Cable Network Subscription `,
     desc: "Access your favorite TV channels affordably.",
   },
   {
-    image: "src/icon/electricity.svg",
+    image: "/icon/electricity.svg",
     title: `Electricity Bills Payment`,
     desc: "Easily pay your electricity bills and keep your power on.",
   },
   {
-    image: "src/icon/airtime_to_cash.svg",
+    image: "/icon/airtime_to_cash.svg",
     title: "Airtime  2 Cash",
     desc: "Convert your airtime to cash instantly.",
   },
@@ -28,22 +28,22 @@ export const services = [
 
 export const utilities = [
   {
-    image: "src/icon/fast-reliable.svg",
+    image: "/icon/fast-reliable.svg",
     title: "Fast & Reliable",
     desc: "In Payertel, we have a fully optimized platform for reliability and dependability. You get 100% value for any transaction you carry out on our system.",
   },
   {
-    image: "src/icon/user-friendly.svg",
+    image: "/icon/user-friendly.svg",
     title: "User-Friendly Interface",
     desc: "Our intuitive and user-friendly interface makes navigating the platform a breeze. Easily browse through data plans, select your preferred option, and complete your transaction within minutes.",
   },
   {
-    image: "src/icon/customer-service.svg",
+    image: "/icon/customer-service.svg",
     title: "Top Customer Service",
     desc: "Our friendly support team is here to assist you every step of the way. Whether you have questions, need assistance , or require technical support, we are just a message or call away.",
   },
   {
-    image: "src/icon/activation.svg",
+    image: "/icon/activation.svg",
     title: "Instant Activation",
     desc: "No more waiting around. With Payertel, your data plan is activated the moment your payment is confirmed, giving you instant access to the digital world.",
   },

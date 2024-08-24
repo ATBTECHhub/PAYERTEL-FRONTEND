@@ -2,24 +2,22 @@ import Navbar from "../ui/Navbar";
 import Hero from "../ui/Hero";
 import About from "../ui/About";
 import Services from "../ui/Services";
-import Process from "../ui/Process";
+import HowItWorks from "../ui/HowItWorks";
 import WhyUs from "../ui/WhyUs";
-import Start from "../ui/Start";
+import GetStarted from "../ui/GetStarted";
 import Testimonial from "../ui/Testimonial";
 import Support from "../ui/Support";
 import Footer from "../ui/Footer";
 const Home = () => {
   return (
-    <div className="">
-      {/*
-       */}
+    <div>
       <Navbar />
       <Hero />
       <About />
       <Services />
-      <Process />
+      <HowItWorks />
+      <GetStarted />
       <WhyUs />
-      <Start />
       <Testimonial />
       <Support />
       <Footer />
