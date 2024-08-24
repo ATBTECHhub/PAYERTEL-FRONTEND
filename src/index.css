@@ -1,52 +1,188 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
-   font-family: "Montserrat", sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
 }
-.container{
+.container {
   @apply w-[90%] mx-auto;
 }
+/* // background: linear-gradient(233.46deg, #0436B6 3.57%, #052065 68.2%);
+background-image: linear-gradient(to left top, #041951, #031b59, #021d60, #011e68, #002070, #001f6d, #001f6a, #001e67, #001b59, #00184b, #00143d, #010e30);
 
 
-.hero {
-  /* -webkit-clip-path: polygon(0% 0%, 100% 0, 50% 100vh, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 0, 50% 100vh, 0% 100%); */
-  /* height: 80vh; */
+*/
+
+.box-shadow-1 {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.primary-gradient {
+  background: linear-gradient(233.46deg, rgb(4, 54, 182) 3.57%, #052065 68.2%);
+}
+
+/* .hero-bg {
   background-image: linear-gradient(
-      to right bottom,
-      rgba(4, 21, 111, 0.8),
-      rgba(4, 21, 111, 0.8)
+      133deg,
+      rgba(4, 54, 182, 0.9) 41%,
+      rgba(4, 54, 182, 0.9) 64%,
+      transparent 50%
     ),
-    url(../public/image/heroBg.png);
+    url(/image/heroBg.png);
   background-size: cover;
   background-position: center;
-  /* position: relative; */
-}
-.about{
-  background-image: url(../public/image/aboutbgi.png);
+  position: relative;
+} */
+.hero-bg {
+  background-image: linear-gradient(
+      to left bottom,
+      rgb(4, 25, 81, 0.92),
+      rgb(3, 27, 89, 0.92),
+      rgb(2, 29, 96, 0.92),
+      rgb(1, 30, 104, 0.92),
+      rgb(0, 32, 112, 0.92),
+      rgb(0, 31, 109, 0.92),
+      rgb(0, 31, 106, 0.92),
+      rgb(0, 30, 103, 0.92),
+      rgb(0, 27, 89, 0.92),
+      rgb(0, 24, 75, 0.92),
+      rgb(0, 20, 61, 0.92),
+      rgb(1, 14, 48, 0.92)
+    ),
+    url(/image/heroBg.png);
   background-size: cover;
-  background-position: top;
+  background-position: center;
+  position: relative;
+  /* height: 100vh; */
+}
+
+/* .hero-bg {
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(4, 25, 81, 0.92),
+      rgba(3, 27, 89, 0.92),
+      rgba(2, 29, 96, 0.92),
+      rgba(1, 30, 104, 0.92),
+      rgba(0, 32, 112, 0.92),
+      rgba(0, 31, 109, 0.92),
+      rgba(0, 31, 106, 0.92),
+      rgba(0, 30, 103, 0.92),
+      rgba(0, 27, 89, 0.92),
+      rgba(0, 24, 75, 0.92),
+      rgba(0, 20, 61, 0.92),
+      rgba(1, 14, 48, 0.92)
+    ),
+    url("/image/heroBg.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transform: skewX(-36deg);
+  transform-origin: top right;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-content {
+  transform: skewX(36deg);
+  padding: 50px;
+} */
+
+/* .hero-bg {
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(4, 25, 81, 0.92),
+      rgba(3, 27, 89, 0.92),
+      rgba(2, 29, 96, 0.92),
+      rgba(1, 30, 104, 0.92),
+      rgba(0, 32, 112, 0.92),
+      rgba(0, 31, 109, 0.92),
+      rgba(0, 31, 106, 0.92),
+      rgba(0, 30, 103, 0.92),
+      rgba(0, 27, 89, 0.92),
+      rgba(0, 24, 75, 0.92),
+      rgba(0, 20, 61, 0.92),
+      rgba(1, 14, 48, 0.92)
+    ),
+    url('/image/heroBg.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transform: skewY(-8deg);
+  transform-origin: top left;
+  height: 100vh;
+}
+
+.hero-content {
+  transform: skewY(8deg);
+  padding: 50px;
+} */
+
+.about {
+  background-image: linear-gradient(
+      to right,
+      #84583a,
+      #a06b66,
+      #ae8491,
+      #b5a1b4,
+      #c0becc,
+      #c3c1cf,
+      #c7c5d2,
+      #cac8d5,
+      #c6b2c4,
+      #c59da7,
+      #bd8a83,
+      #a77e5d
+    ),
+    url(/image/about-bg.png);
+  background-size: cover;
+  /* background-position: top; */
   position: relative;
 }
 
-.box:hover{
-    box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
-
+.box:hover {
+  box-shadow: 0 0 20px 0px rgba(4, 9, 30, 0.7);
 }
-.choose{
+.choose {
   background-image: url(../image/chooseus.png);
-   background-size: cover;
-  position: relative;
-  background-position: top;
-}
-.aboutpage{
-  background-image: url(../public/image/about2.png);
   background-size: cover;
   position: relative;
   background-position: top;
+}
+.about-bg {
+  background-image: url(/image/about-bg3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbarTogglerActive > span:nth-child(1) {
+  top: 12px;
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.navbarTogglerActive > span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbarTogglerActive > span:nth-child(3) {
+  top: -0.5rem;
+  --tw-rotate: 135deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.navbarTogglerActive > span:nth-child(3) {
+  top: -8px;
+  transform: rotate(135deg);
+}
+
+.custom-gradient {
+  @apply bg-gradient-to-tr;
+  background-image: linear-gradient(233.46deg, #0436b6 3.57%, #052065 68.2%);
 }

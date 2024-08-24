@@ -40,7 +40,6 @@ const Dashboard = () => {
               <FaCirclePlus />
             </i>
           </div>
-        
         </div>
       </div>
       <div className="flex container py-[115px] justify-center items-center space-x-20">

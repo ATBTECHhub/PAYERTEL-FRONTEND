@@ -1,37 +1,29 @@
-import React from "react";
-
 const Start = () => {
   return (
-    <section className="container py-[100px] lg:py-[150px]">
-      <div className="flex justify-center ">
-        <div className="inset-y-1/2 py-[200px lg:py-[150px]">
-          <h1 className="font-bold lg:text-[64px] lg:leading-[78px] w-[528px] h-[200px] text-[48px] leading-[60px]">
-            {" "}
-            Get Started With <span className="text-primary">PAYERTEL</span>{" "}
-            Today!
-          </h1>
+    <section className="border-gray-200 py-10 pl-4 border">
+      <div className="mx-auto max-w-screen-xl">
+        <div className="items-end grid grid-cols-1 md:grid-cols-[1.5fr_2fr]">
+          <div className="flex flex-col justify-self-end gap-4 px-4 md:px-10 lg:px-16">
+            <h1 className="font-bold text-3xl md:text-5xl">
+              Get Started With <span className="text-primary">PAYERTEL</span>
+              Today!
+            </h1>
 
-          <p className="font-normal text-xl leading-8 w-[369px] h-[100px] pt-8">
-            Join the growing community of users who trust{" "}
-            <span className="text-primary">PAYERTEL</span> for thier telecom
-            needs. Sign up now and experience the future of telecom services.
-          </p>
-          <div className="pt-36">
-            {" "}
+            <p className="font-normal text-xl">
+              Join the growing community of users who trust PAYERTEL for thier
+              telecom needs. Sign up now and experience the future of telecom
+              services.
+            </p>
             <a
               href=""
-              className="border rounded-lg  px-[40px] py-[16px] text-white bg-primary h-[56px] w-[190px] "
+              className="border-2 bg-primary p-2 rounded-md text-white self-start"
             >
               Get Started
             </a>
           </div>
-        </div>
-        <div className="lg:w-full">
-          <img
-            className=" h-[700px] lg:w-[900px] w-full object-cover"
-            src="/image/startgal.png"
-            alt=""
-          />
+          <div className="relative">
+            <img className="w-full" src="/image/get-started.png" alt="" />
+          </div>
         </div>
       </div>
     </section>

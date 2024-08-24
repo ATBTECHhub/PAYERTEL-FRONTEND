@@ -1,41 +1,45 @@
-import React from "react";
-import { hero } from "../constant/data";
-
-const Hero = () => {
+function Hero() {
   return (
-    <section className="container py-[100px] lg:py-[150px]">
-      <div className="flex space-x-28 items-center py-[100px] flex-wrap">
-        <div className="py-[145px] space-y-[35px] lg:w-2/3">
-          {" "}
-          <h1 className="w-[800px] font-bold text-black lg:text-[64px] lg:leading-[78px] text-[48px] leaading-[60px]">
+    <section id="home" className="h-auto lg:h-screen overflow-clip hero-bg">
+      {/* <div className="relative z-10 flex items-end pt-28 min-h-screen overflow-clip"> */}
+      <div className="items-end gap-10 lg:gap-0 grid grid-cols-1 lg:grid-cols-[1fr_1fr] pt-32 lg:pt-44 h-full">
+        <div className="flex flex-col items-center lg:items-start gap-10 lg:-mt-20 xl:-mt-80 lg:-mr-20 xl:-mr-32 ml-auto px-4 w-full text-white self-center">
+          <h1 className="font-bold text-3xl text-center sm:text-4xl md:text-5xl lg:text-left xl:text-6xl">
             Seamless And Efficient Telecom solutions At your Finger Tips
           </h1>
-          <p className="w-[722px] font-normal text-xl leading-8">
+          <p className="w-[84%] font-normal text-base sm:text-lg md:text-xl leading-8">
             Welcome to PAYERTEL, your trusted platform for all your needs.
             Wether you need to purchase data bundles, top up your airtime,
             convert your airtime to cash, or subscribe to cable networks,
             PAYERTEL offers a seamless and efficient solution at competitive
             rates. Our platform is designed to cater for busy proffessionals,
             tech-savvy students, stay-at home parents, small business owners and
-            retirees.{" "}
+            retirees.
           </p>
-          <div className="py-4 bg-white text-primary">
-            {" "}
-            <a className="border-[3px] px-3 py-3 rounded-2xl" href="">
+          <div className="py-4 text-primary">
+            <a className="border-[3px] bg-white px-3 py-3 rounded-2xl" href="">
               Get Started
             </a>
           </div>
         </div>
-        <div className="absolute pb-32">
+        <div className="flex justify-center">
           <img
-            className="lg:w-[1200px] h-[902px] w-full object-cover"
+            className="w-full h-full object-cover"
             src="/image/herohand.png"
             alt=""
           />
         </div>
       </div>
+      {/* </div> */}
+      {/* <div className="top-0 right-0 z-20 absolute justify-items-end grid grid-cols-2 min-w-full max-w-full h-screen overflow-clip">
+        <img
+          className="col-span-2 translate-y-[10%]"
+          src="/image/herohand.png"
+          alt=""
+        />
+      </div> */}
     </section>
   );
-};
+}
 
 export default Hero;
