@@ -22,7 +22,7 @@ const Support = () => {
                 <div className="flex flex-col gap-4 p-6 pt-10 shadow-lg border border-gray-200 rounded-3xl items-center">
                   <img
                     className="max-w-12 max-h-12"
-                    src="src/icon/phone-call.svg"
+                    src="/icon/phone-call.svg"
                     alt="phone-call"
                   />
                   <h3 className="text-primary font-semibold text-xl">
@@ -33,7 +33,7 @@ const Support = () => {
                 <div className="flex flex-col gap-4 p-6 pt-10 shadow-lg border border-gray-200 rounded-3xl items-center">
                   <img
                     className="max-w-12 max-h-12"
-                    src="src/icon/email.svg"
+                    src="/icon/email.svg"
                     alt="phone-call"
                   />
                   <h3 className="text-primary font-semibold text-xl">E-mail</h3>

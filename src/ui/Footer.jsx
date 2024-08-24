@@ -44,9 +44,9 @@ const Footer = () => {
                 <div className="my-1">
                   <div className="flex flex-wrap justify-center md:justify-start items-center gap-4">
                     <p className="flex gap-2 text-base text-white">
-                      <img src="src/icon/globe.svg" alt="language icon" />
+                      <img src="/icon/globe.svg" alt="language icon" />
                       <span>English</span>
-                      <img src="src/icon/arrow-down.svg" alt="language icon" />
+                      <img src="/icon/arrow-down.svg" alt="language icon" />
                     </p>
                     <BottomNavLink link="/#" label="Terms & privacy" />
                     <BottomNavLink link="/#" label="Security" />
