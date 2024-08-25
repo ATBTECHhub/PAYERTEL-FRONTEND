@@ -11,7 +11,7 @@ const Navbar = () => {
     <FadeIn className="top-0 left-0 z-50 fixed flex items-center bg-white shadow-lg backdrop-blur-2xl px-4 w-full h-16 md:h-20">
       {/* <div className="mx-auto max-w-screen-xl"> */}
       <div className="relative flex justify-between items-center mx-auto w-full max-w-screen-xl">
-        <div className="flex justify-center items-center h-16 md:h-20 overflow-clip">
+        <div className="flex justify-center items-center -ml-4 sm:-ml-6 h-16 md:h-20 overflow-clip">
           <a href="/#" className="block py-3 md:py-5 w-20 md:w-24">
             {/* <img src="/720logo.png" alt="logo" className="w-full" /> */}
             <Logo />
