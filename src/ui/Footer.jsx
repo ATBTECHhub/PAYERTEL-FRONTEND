@@ -86,10 +86,10 @@ const Footer = () => {
             </LinkGroup>
 
             <LinkGroup header="Services">
-              <NavLinkItem to="signup" label="Airtime" />
-              <NavLinkItem to="signup" label="Data Bundle" />
-              <NavLinkItem to="signup" label="Cable Tv" />
-              <NavLinkItem to="signup" label="Airtime to Cash" />
+              <NavLinkItem link="signup" label="Airtime" />
+              <NavLinkItem link="signup" label="Data Bundle" />
+              <NavLinkItem link="signup" label="Cable Tv" />
+              <NavLinkItem link="signup" label="Airtime to Cash" />
             </LinkGroup>
             <NavLink
               className="flex justify-center justify-self-center items-center gap-2 bg-white p-2 rounded-lg self-center"
