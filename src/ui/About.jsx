@@ -15,7 +15,7 @@ const About = () => {
             <div className="relative row-start-2 md:row-start-1 row-end-2 md:row-end-1 h-full">
               <img
                 className="w-full h-full object-cover"
-                src="/image/about-gal.png"
+                src="/image/about40.png"
                 alt=""
               />
             </div>
