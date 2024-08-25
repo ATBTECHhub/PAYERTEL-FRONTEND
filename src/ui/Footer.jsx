@@ -131,10 +131,12 @@ export default Footer;
 
 const LinkGroup = ({ children, header }) => {
   return (
-    <div className="px-4 w-full">
-      <div className="mb-10 w-full">
-        <h4 className="mb-9 font-semibold text-lg text-white">{header} </h4>
-        <ul className="space-y-3">{children}</ul>
+    <div className="px-2 sm:px-4 w-full">
+      <div className="mb-4 sm:mb-6 md:mb-8 lg:mb-10 w-full">
+        <h4 className="mb-4 sm:mb-7 md:mb-8 lg:mb-9 font-semibold text-lg text-white">
+          {header}{" "}
+        </h4>
+        <ul className="space-y-2 sm:space-y-3">{children}</ul>
       </div>
     </div>
   );
@@ -174,7 +176,7 @@ const BottomNavLink = ({ label, link }) => {
   return (
     <a
       href={link}
-      className="px-3 text-base text-white hover:text-white underline-offset-2 hover:underline"
+      className="px-2 sm:px-3 text-base text-white hover:text-white underline-offset-2 hover:underline"
     >
       {label}
     </a>
