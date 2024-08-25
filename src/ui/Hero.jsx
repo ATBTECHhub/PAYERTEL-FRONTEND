@@ -14,7 +14,7 @@ function Hero() {
             <h1 className="font-bold text-3xl text-center sm:text-4xl md:text-5xl lg:text-left xl:text-6xl">
               Seamless And Efficient Telecom solutions At your Finger Tips
             </h1>
-            <p className="hidden w-[84%] font-normal text-base sm:text-lg md:text-xl leading-8">
+            <p className="lg:block hidden w-[84%] font-normal text-base sm:text-lg md:text-xl leading-8">
               Welcome to PAYERTEL, your trusted platform for all your needs.
               Wether you need to purchase data bundles, top up your airtime,
               convert your airtime to cash, or subscribe to cable networks,
