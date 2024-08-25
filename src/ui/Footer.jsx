@@ -6,10 +6,10 @@ import { FadeIn } from "./FadeIn";
 const Footer = () => {
   return (
     <FadeIn>
-      <section className="px-4 py-10 primary-gradient">
+      <section className="px-4 py-6 sm:py-8 lg:py-10 primary-gradient">
         <div className="mx-auto max-w-screen-xl">
-          <div className="gap-8 grid grid-cols-2 md:grid-cols-4">
-            <div className="flex justify-center items-center px-4 max-w-36 h-20 self-center">
+          <div className="gap-4 sm:gap-6 lg:gap-8 grid grid-cols-2 md:grid-cols-4">
+            <div className="flex justify-center items-center px-4 max-w-24 md:max-w-32 lg:max-w-36 h-12 md:h-16 lg:h-20 self-center">
               <Link to="home" className="inline-block w-full">
                 <Logo />
               </Link>

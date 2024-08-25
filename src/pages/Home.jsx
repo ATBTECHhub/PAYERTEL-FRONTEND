@@ -6,7 +6,7 @@ import HowItWorks from "../ui/HowItWorks";
 import WhyUs from "../ui/WhyUs";
 import GetStarted from "../ui/GetStarted";
 import Testimonial from "../ui/Testimonial";
-import Support from "../ui/Support";
+import CustomerSupport from "../ui/CustomerSupport";
 import Footer from "../ui/Footer";
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
       <HowItWorks />
       <GetStarted />
       <Testimonial />
-      <Support />
+      <CustomerSupport />
       <Footer />
     </div>
   );
