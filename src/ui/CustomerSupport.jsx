@@ -3,7 +3,10 @@ import { FadeIn } from "./FadeIn";
 const CustomerSupport = () => {
   return (
     <FadeIn>
-      <section className="px-4 py-10">
+      <section
+        id="contact"
+        className="px-4 py-10 my-6 sm:my-12 md:my-16 lg:my-20"
+      >
         <div className="mx-auto max-w-screen-xl">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center">
             <img

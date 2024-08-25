@@ -4,7 +4,7 @@ import { FadeIn } from "./FadeIn";
 const Services = () => {
   return (
     <FadeIn>
-      <section className="px-4 py-10">
+      <section id="services" className="px-4 py-10">
         <div className="mx-auto max-w-screen-xl">
           <h2 className="mb-12 sm:mb-14 md:mb-16 lg:mb-20 font-bold text-3xl text-center sm:text-4xl md:text-5xl">
             Our Awesome & Unique Feature Services

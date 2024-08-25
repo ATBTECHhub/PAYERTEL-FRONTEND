@@ -3,7 +3,10 @@ import { FadeIn } from "./FadeIn";
 const HowItWorks = () => {
   return (
     <FadeIn>
-      <section className="px-4 py-12 sm:py-14 md:py-16 lg:py-20">
+      <section
+        id="how-it-works"
+        className="px-4 border-b border-blue-50 py-12 sm:py-14 md:py-16 lg:py-20 my-6 sm:my-12 md:my-16 lg:my-20"
+      >
         <div className="mx-auto max-w-screen-xl">
           <h2 className="mb-8 md:mb-16 font-bold text-4xl md:text-5xl text-center text-primary">
             How It Works

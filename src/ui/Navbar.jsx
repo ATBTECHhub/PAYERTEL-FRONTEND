@@ -37,8 +37,8 @@ const Navbar = () => {
               <ul className="block lg:flex font-medium text-primary text-xl">
                 <ListItem NavLink="home">Home</ListItem>
                 <ListItem NavLink="about">About</ListItem>
-                <ListItem NavLink="schools">Service</ListItem>
-                <ListItem NavLink="about">Contact</ListItem>
+                <ListItem NavLink="services">Service</ListItem>
+                <ListItem NavLink="contact">Contact</ListItem>
                 <>
                   <NavLink
                     className="flex sm:hidden py-2 font-medium text-base text-primary-dark hover:text-primary underline-offset-8 underline-primary hover:underline cursor-pointer"
@@ -99,50 +99,3 @@ const ListItem = ({ children, NavLink }) => {
 };
 
 export default Navbar;
-
-/* import { Link, NavLink } from "react-router-dom";
-import { MdMenu } from "react-icons/md";
-import Logo from "./Logo";
-const Navbar = () => {
-  return (
-    <nav className="z-50 fixed flex items-center bg-white w-full h-16 text-primary">
-      <div className="flex justify-between items-center container">
-        <Link to="/" className="w-14 h-14 text-xl">
-          <Logo />
-        </Link>
-        <ul className="lg:flex gap-6 hidden">
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/services">Service</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-        </ul>
-        <div className="lg:flex gap-4 hidden">
-          <Link
-            to="signup"
-            className="bg-blue-900 p-2 border rounded-lg text-white"
-          >
-            Create Account
-          </Link>
-          <Link
-            to="login"
-            className="border-sky-500 hover:bg-sky-400 p-2 border rounded-lg text-black duration-1000"
-          >
-            Login
-          </Link>
-        </div>
-        <MdMenu className="lg:hidden" />
-      </div>
-    </nav>
-  );
-};
-
-export default Navbar;
- */

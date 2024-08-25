@@ -3,7 +3,10 @@ import { FadeIn } from "./FadeIn";
 const Testimonial = () => {
   return (
     <FadeIn>
-      <section className="px-4 py-12 sm:py-14 md:py-16 lg:py-20 primary-gradient">
+      <section
+        id="testimonials"
+        className="my-6 sm:my-12 md:my-16 lg:my-20 px-4 py-12 sm:py-14 md:py-16 lg:py-20 primary-gradient"
+      >
         <div className="mx-auto max-w-screen-xl">
           <h2 className="mb-10 sm:mb-12 lg:mb-16 font-bold text-4xl text-center text-white md:text-5xl">
             What Clients Say About Us.

@@ -4,7 +4,7 @@ import { FadeIn } from "./FadeIn";
 const WhyUs = () => {
   return (
     <FadeIn>
-      <section className="px-4 sm:px-4 py-10 sm:py-14 md:py-16 lg:py-20 primary-gradient">
+      <section className="my-6 sm:my-12 md:my-16 lg:my-20 px-4 sm:px-4 py-10 sm:py-14 md:py-16 lg:py-20 primary-gradient">
         <div className="mx-auto max-w-screen-xl">
           <h2 className="mb-16 font-bold text-4xl text-center text-white md:text-5xl">
             Why Choose Us?
