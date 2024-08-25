@@ -9,7 +9,7 @@ function Hero() {
         className="h-screen md:h-auto lg:h-screen overflow-clip hero-bg"
       >
         <div className="items-end gap-4 sm:gap-8 md:gap-10 lg:gap-0 grid grid-cols-1 lg:grid-cols-[1fr_1fr] pt-20 sm:pt-24 md:pt-32 lg:pt-44 h-full">
-          <div className="flex flex-col items-center lg:items-start gap-4 sm:gap-8 md:gap-10 lg:-mt-20 xl:-mt-80 lg:-mr-20 xl:-mr-32 ml-auto px-4 w-full text-white self-center">
+          <div className="flex flex-col items-center lg:items-start gap-4 sm:gap-8 md:gap-10 -mt-8 lg:-mr-20 xl:-mr-32 ml-auto px-4 w-full text-white self-center">
             <h1 className="font-bold text-3xl text-center sm:text-4xl md:text-5xl lg:text-left xl:text-6xl">
               Seamless And Efficient Telecom solutions At your Finger Tips
             </h1>
