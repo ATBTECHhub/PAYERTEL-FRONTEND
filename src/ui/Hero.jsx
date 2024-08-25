@@ -31,10 +31,10 @@ function Hero() {
               </NavLink>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center self-center">
             <img
               className="w-full h-full object-cover"
-              src="/image/herohand.png"
+              src="/image/hero50.png"
               alt=""
             />
           </div>
