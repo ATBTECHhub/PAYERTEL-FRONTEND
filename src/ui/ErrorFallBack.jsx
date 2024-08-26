@@ -1,4 +1,4 @@
-import Heading from "./Heading";
+import Heading from "./Headings";
 import Button from "./Button";
 
 function ErrorFallback({ error, resetErrorBoundary }) {

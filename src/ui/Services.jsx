@@ -4,10 +4,13 @@ import { FadeIn } from "./FadeIn";
 const Services = () => {
   return (
     <FadeIn>
-      <section id="services" className="px-4 py-10">
+      <section
+        id="services"
+        className="my-4 sm:my-8 md:my-12 lg:my-16 px-4 py-10"
+      >
         <div className="mx-auto max-w-screen-xl">
           <h2 className="mb-12 sm:mb-14 md:mb-16 lg:mb-20 font-bold text-3xl text-center sm:text-4xl md:text-5xl">
-            Our Awesome & Unique Feature Services
+            Unique & Exceptional Services
           </h2>
           <div className="gap-4 sm:gap-6 md:gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {services.map((item, i) => (

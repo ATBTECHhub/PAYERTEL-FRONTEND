@@ -5,16 +5,16 @@ const About = () => {
     <FadeIn>
       <section
         id="about"
-        className="mb-10 sm:mb-16 lg:mb-20 px-4 pt-16 sm:pt-20 lg:pt-24 about-bg"
+        className="mb-10 sm:mb-16 lg:mb-20 px-4 py-10 about-bg"
       >
-        <div className="mx-auto max-w-screen-xl">
+        <div className="mx-auto md:-mt-10 max-w-screen-xl">
           <div
             id="about"
             className="items-center gap-x-2 gap-y-4 sm:gap-y-10 lg:gap-x-4 lg:gap-y-16 grid grid-cols-1 md:grid-cols-2 grid-rows-[max-content,1fr] md:grid-rows-none"
           >
             <div className="relative row-start-2 md:row-start-1 row-end-2 md:row-end-1 h-full">
               <img
-                className="w-full h-full object-cover"
+                className="-mt-4 md:-mt-0 w-full h-full object-cover"
                 src="/image/about40.png"
                 alt=""
               />

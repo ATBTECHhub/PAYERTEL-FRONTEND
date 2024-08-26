@@ -10,13 +10,13 @@ import CustomerSupport from "../ui/CustomerSupport";
 import Footer from "../ui/Footer";
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <Hero />
-      <About />
       <Services />
-      <WhyUs />
+      <About />
       <HowItWorks />
+      <WhyUs />
       <GetStarted />
       <Testimonial />
       <CustomerSupport />

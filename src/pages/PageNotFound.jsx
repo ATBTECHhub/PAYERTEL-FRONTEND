@@ -1,5 +1,5 @@
 import { useMoveBack } from "../hooks/useMoveBack";
-import Heading from "../ui/Heading";
+import Heading from "../ui/Headings";
 
 function PageNotFound() {
   const moveBack = useMoveBack();
