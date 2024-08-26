@@ -6,7 +6,7 @@ const Services = () => {
     <FadeIn>
       <section
         id="services"
-        className="my-4 sm:my-8 md:my-12 lg:my-16 px-4 py-10"
+        className="my-4 sm:my-8 md:my-12 lg:my-16 px-4 py-6 sm:py-10"
       >
         <div className="mx-auto max-w-screen-xl">
           <h2 className="mb-12 sm:mb-14 md:mb-16 lg:mb-20 font-bold text-3xl text-center sm:text-4xl md:text-5xl">
