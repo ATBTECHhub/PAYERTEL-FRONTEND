@@ -23,6 +23,11 @@ function Hero() {
               tech-savvy students, stay-at home parents, small business owners
               and retirees.
             </p>
+            <p className="block md:hidden font-normal text-base sm:text-lg md:text-xl leading-8">
+              Welcome to PAYERTEL, your trusted platform for all your needs.
+              Wether you need to purchase data bundles, top up your airtime,
+              convert your airtime to cash, or subscribe to cable networks.
+            </p>
             <div className="py-4 font-medium text-base text-blue-900">
               <NavLink
                 className="border-[3px] bg-white hover:bg-blue-100 px-3 py-3 rounded-lg transition-all"

@@ -10,7 +10,7 @@ const Services = () => {
       >
         <div className="mx-auto max-w-screen-xl">
           <h2 className="mb-12 sm:mb-14 md:mb-16 lg:mb-20 font-bold text-3xl text-center sm:text-4xl md:text-5xl">
-            Unique & Exceptional Services
+            Our Unique & Exceptional Services
           </h2>
           <div className="gap-4 sm:gap-6 md:gap-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {services.map((item, i) => (
