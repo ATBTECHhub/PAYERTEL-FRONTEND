@@ -1,20 +1,17 @@
-import React from 'react'
-import { log } from '../constant/data';
+import { log } from "../constant/data";
 import { FcGoogle } from "react-icons/fc";
 import { IoLogoApple } from "react-icons/io5";
 import { PiEyeSlashThin } from "react-icons/pi";
-import { MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
-
 
 const Login = () => {
   return (
     <section className="space-y-8">
-      <div className=" container">
+      <div className="container">
         {" "}
         <h1 className="w-[438px] font-semibold text-[40px]">Welcome Back.</h1>
         <p>
           Already have an account?{" "}
-          <a className="text-primary font-medium" href="">
+          <a className="font-medium text-primary" href="">
             Sign up
           </a>
         </p>
@@ -25,7 +22,7 @@ const Login = () => {
               Email Address
             </label>
             <input
-              className="shadow appearance-none border rounded-2xl w-[400px] py-3 px-3 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow focus:shadow-outline px-3 py-3 border rounded-2xl w-[400px] leading-tight appearance-none focus:outline-none"
               type="Email"
               placeholder="Example@gmail.com"
             />
@@ -38,28 +35,28 @@ const Login = () => {
             <div className="flex">
               {" "}
               <input
-                className="shadow appearance-none border rounded-2xl w-[400px] py-3 px-3 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow focus:shadow-outline px-3 py-3 border rounded-2xl w-[400px] leading-tight appearance-none focus:outline-none"
                 type="password"
                 placeholder="********"
               />
-              <i className="absolute pl-80 pt-3">
+              <i className="absolute pt-3 pl-80">
                 <PiEyeSlashThin />
               </i>
             </div>
           </div>
-          <div className='py-3'>
+          <div className="py-3">
             {" "}
             <a href="">Forgotten Password?</a>
           </div>
-          <div className=" border rounded-2xl w-[400px] py-3 px-3 leading-tight text-center bg-primary ">
+          <div className="bg-primary px-3 py-3 border rounded-2xl w-[400px] text-center leading-tight">
             {" "}
-            <a className="w-[80px] font-semibold text-xl text-white" href="">
+            <a className="w-[80px] font-semibold text-white text-xl" href="">
               Login
             </a>
           </div>
 
           {log.map((item, i) => (
-            <div dangerouslySetInnerHTML={{ __html: item.image }} />
+            <div key={i} dangerouslySetInnerHTML={{ __html: item.image }} />
           ))}
           <div className="flex items-center gap-8 pl-32">
             {" "}
@@ -70,6 +67,6 @@ const Login = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Login
+export default Login;
