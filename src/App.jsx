@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
@@ -7,10 +8,16 @@ import Navbar from "./ui/Navbar"
 import Values from "./ui/Values"
 import Dashboard from "./pages/Dashboard"
 import Signup from "./pages/Signup"
+=======
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Dashboard from "./pages/Dashboard";
+import PageNotFound from "./pages/PageNotFound";
+>>>>>>> f8c371247cb9dc7791c9c22bafe087764987398d
 
 function App() {
-
   return (
+<<<<<<< HEAD
     
           <Routes>
             <Route path="/" element={<Home />} />
@@ -31,6 +38,14 @@ function App() {
           </Routes>
     
   )
+=======
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="dashboard" element={<Dashboard />} />
+      <Route path="*" element={<PageNotFound />} />
+    </Routes>
+  );
+>>>>>>> f8c371247cb9dc7791c9c22bafe087764987398d
 }
 
-export default App
+export default App;

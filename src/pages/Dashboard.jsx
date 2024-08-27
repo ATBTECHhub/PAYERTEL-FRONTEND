@@ -1,10 +1,6 @@
-import React from "react";
 import { PiBellSimpleRingingBold } from "react-icons/pi";
-import { FaRegEye } from "react-icons/fa";
 import { FaCirclePlus } from "react-icons/fa6";
-import { dash, dashboard, foot, leg, transact } from "../constant/data";
-import { IoEyeSharp } from "react-icons/io5";
-import { GoDownload } from "react-icons/go";
+import { dashboard, foot, leg, transact } from "../constant/data";
 
 const Dashboard = () => {
   return (
@@ -40,12 +36,14 @@ const Dashboard = () => {
               <FaCirclePlus />
             </i>
           </div>
-        
         </div>
       </div>
       <div className="flex container py-[115px] justify-center items-center space-x-20">
         {dashboard.map((item, i) => (
-          <div className="border-x-4 border-b-4 py-[27px] px-[51px] rounded-b-2xl">
+          <div
+            key={i}
+            className="border-x-4 border-b-4 py-[27px] px-[51px] rounded-b-2xl"
+          >
             {" "}
             <div dangerouslySetInnerHTML={{ __html: item.image }} />
             <h1 className="text-center py-2 font-semibold text-xl">
@@ -57,7 +55,7 @@ const Dashboard = () => {
 
       <div className="w-[70%] mx-auto pb-8">
         {transact.map((item, i) => (
-          <div className="">
+          <div key={i} className="">
             {" "}
             <div dangerouslySetInnerHTML={{ __html: item.image }} />
           </div>
@@ -67,7 +65,7 @@ const Dashboard = () => {
       <div className=" pl-6 bg-primary py-6 px-8 ">
         <div className="flex space-x-[126px]">
           {foot.map((item, i) => (
-            <div dangerouslySetInnerHTML={{ __html: item.image }} />
+            <div key={i} dangerouslySetInnerHTML={{ __html: item.image }} />
           ))}
           <div className="block text-white">
             {" "}
@@ -102,7 +100,7 @@ const Dashboard = () => {
         </div>
         <div className="flex items-center">
           {leg.map((item, i) => (
-            <div className="flex space-x-[60px] text-white">
+            <div key={i} className="flex space-x-[60px] text-white">
               {" "}
               <div dangerouslySetInnerHTML={{ __html: item.image }} />
               <h3>{item.heading1}</h3>
