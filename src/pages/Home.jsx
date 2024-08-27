@@ -35,29 +35,10 @@ import Footer from "../ui/Footer";
 const Home = () => {
   return (
     <div className="">
-      <Navbar />
-      {/* <Hero /> */}
-      {/* <About/> */}
-      <Values />
-
-      <TheWhy />
-       {/* <Process/>
-      <Start/>
-      <Testimonial/>
-      <Support/>
-      <Footer/> */}
-      {/* <Signup/>
-      <Login/>
-      <Dashboard/>
-      <Databundle/>
-      <Cash/>
-      <Cabletv/>
-      <Profile/>
-      <Password/>
-       <Verification/>
-      <Airtime/>
-      <Dashnew/> */}
-    </>
+    
+    
+    
+    
       <Hero />
       <Services />
       <About />
