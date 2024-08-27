@@ -7,7 +7,6 @@ function Hero() {
       <section
         id="home"
         className="py-6 sm:pt-8 md:pt-10 lg:pt-16 h-auto lg:h-[calc(100vh-5rem)] overflow-clip hero-bg"
-        // className="py-6 sm:pt-8 md:pt-10 lg:pt-16 h-[calc(100vh-4rem)] md:h-auto lg:h-[calc(100vh-5rem)] overflow-clip hero-bg"
       >
         <div className="items-end gap-4 sm:gap-8 md:gap-10 lg:gap-0 grid grid-cols-1 lg:grid-cols-[1fr_1fr] h-full">
           <div className="flex flex-col items-center lg:items-start gap-4 sm:gap-8 md:gap-10 xl:-mt-44 lg:-mr-20 xl:-mr-32 ml-auto px-4 w-full text-white self-start md:self-center">

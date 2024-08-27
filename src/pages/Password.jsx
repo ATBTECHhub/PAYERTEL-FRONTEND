@@ -1,4 +1,3 @@
-import React from "react";
 import { IoEyeSharp } from "react-icons/io5";
 import { PiBellSimpleRingingBold } from "react-icons/pi";
 import { IoMdArrowDropleft } from "react-icons/io";
