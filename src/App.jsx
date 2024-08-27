@@ -6,6 +6,7 @@ import Hero from "./ui/Hero"
 import Navbar from "./ui/Navbar"
 import Values from "./ui/Values"
 import Dashboard from "./pages/Dashboard"
+import Signup from "./pages/Signup"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path='dashboard' element={<Dashboard/>} />
+            <Route path='/register' element={<Signup/>} />
             {/* <Route element={<AppLayout />}>
               <Route index element={<Home />} />
               <Route path="/" element={<Home />} />

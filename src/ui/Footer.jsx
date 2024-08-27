@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className=" pl-6 bg-primary py-14 px-8 lg:px-20">
+    <section className=" pl-6 py-14 px-8 lg:px-20 bg-blue-950">
       <div className="flex space-x-[160px]">
         {foot.map((item, i) => (
           <div dangerouslySetInnerHTML={{ __html: item.image }} />
