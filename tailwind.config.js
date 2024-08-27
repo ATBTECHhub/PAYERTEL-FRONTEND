@@ -6,7 +6,15 @@ export default {
     extend: {
       colors:{
         primary:'#0436b6'
+        
+      },
+      boxShadow:{
+        shadow: "0px 4px 4px 0px #00000040"
+      },
+      backgroundImage:{
+        
       }
+      
     },
   },
   plugins: [],
