@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import LogoWhite from "../ui/LogoWhite";
-import LogoDark from "../ui/LogoDark";
 
 function ComingSoon() {
   const [timeLeft, setTimeLeft] = useState({
