@@ -1,5 +1,5 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
-import Logo from "./Logo";
+import Logo from "./LogoWhite";
 import { Link } from "react-scroll";
 import { FadeIn } from "./FadeIn";
 import { NavLink } from "react-router-dom";

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { FadeIn } from "./FadeIn";
-import Logo from "./Logo";
 import { NavLink } from "react-router-dom";
+import LogoDark from "./LogoDark";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <FadeIn className="top-0 left-0 z-50 sticky flex items-center bg-white shadow-lg backdrop-blur-2xl px-4 w-full h-16 md:h-20">
       <div className="relative flex justify-between items-center mx-auto w-full max-w-screen-xl">
-        <div className="flex justify-center items-center -ml-4 sm:-ml-6 h-16 md:h-20 overflow-clip">
-          <a href="/#" className="block py-3 md:py-5 w-20 md:w-24">
-            <Logo />
+        <div className="flex justify-center items-center -ml-8 sm:-ml-6 w-48 md:w-48 overflow-clip">
+          <a href="/#" className="block py-3 md:py-5 w-48 md:w-48">
+            <LogoDark />
           </a>
         </div>
         <div className="flex justify-center items-center px-4 w-full">

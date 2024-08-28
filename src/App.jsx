@@ -6,6 +6,7 @@ import PageNotFound from "./pages/PageNotFound";
 function App() {
   return (
     <Routes>
+      {/* <Route path="/" element={<ComingSoon />} /> */}
       <Route path="/" element={<Home />} />
       <Route path="dashboard" element={<Dashboard />} />
       <Route path="*" element={<PageNotFound />} />
