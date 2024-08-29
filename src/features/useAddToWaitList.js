@@ -10,13 +10,15 @@ export function useAddToWaitList() {
   } = useMutation({
     mutationFn: async (email) => {
       try {
-        await axios.post("http://localhost:8000/api/v1/waitlist", {
-          email,
-        });
+        await axios.post(
+          "https://payertel-backend.onrender.com/api/v1/waitlist",
+          {
+            email,
+          }
+        );
       } catch (error) {
-        console.error("Error submitting email:", error);
         throw new Error(
-          error.response.data.message || "Error submitting email:"
+          error?.response?.data?.message || "Error submitting email:"
         );
       }
     },
