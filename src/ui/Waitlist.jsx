@@ -84,7 +84,7 @@ function Waitlist() {
               </div>
               <div className="flex flex-col justify-center items-center gap-4 sm:gap-6 md:gap-10">
                 <div className="flex flex-col justify-start items-center gap-2.5">
-                  <h2 className="shadow-sm font-bold text-[#0436b6] text-4xl text-center sm:text-5xl md:text-6xl leading-normal">
+                  <h2 className="shadow-sm font-bold text-[#cdd7f0] text-4xl text-center sm:text-5xl md:text-6xl leading-normal">
                     Coming Soon
                   </h2>
                   <p className="text-[#b4c3e9] text-center sm:text-base leading-relaxed">
@@ -115,7 +115,7 @@ function Waitlist() {
                   <div className="flex sm:flex-row flex-col justify-center gap-2.5">
                     <input
                       type="email"
-                      className={`border-gray-200 bg-white shadow-sm px-3.5 py-2 border rounded-lg  sm:w-80 focus:outline-none h-10 text-gray-900 text-sm leading-relaxed placeholder-gray-400 ${
+                      className={`border-gray-200 bg-white shadow-sm px-3.5 py-2 border rounded-lg w-64  sm:w-80 focus:outline-none h-10 text-gray-900 text-sm leading-relaxed placeholder-gray-400 ${
                         errors.email ? "border-red-500" : ""
                       }`}
                       placeholder="Type your mail..."
