@@ -8,7 +8,7 @@ import WhyUs from "../ui/WhyUs";
 import GetStarted from "../ui/GetStarted";
 import CustomerSupport from "../ui/CustomerSupport";
 import Footer from "../ui/Footer";
-import ComingSoon from "./ComingSoon";
+import Waitlist from "../ui/Waitlist";
 
 const Home = () => {
   return (
@@ -23,7 +23,7 @@ const Home = () => {
       <Testimonial />
       <CustomerSupport />
       <Footer />
-      <ComingSoon />
+      <Waitlist />
     </div>
   );
 };
