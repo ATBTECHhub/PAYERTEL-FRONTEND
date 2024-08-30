@@ -9,6 +9,7 @@ import Airtime from "./pages/Login";
 function App() {
   return (
     <Routes>
+      {/* <Route path="/" element={<ComingSoon />} /> */}
       <Route path="/" element={<Home />} />
       <Route path="dashboard" element={<Dashboard />} />
       <Route path="airtime" element={<Airtime/>} />

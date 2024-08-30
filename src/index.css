@@ -7,6 +7,27 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Loader CSS */
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #ffffff; /* White color for loader */
+  width: 18px; /* Width of the loader */
+  height: 18px; /* Height of the loader */
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .container {
   @apply w-[90%] mx-auto;
 }
@@ -185,7 +206,7 @@ background-image: linear-gradient(to left top, #041951, #031b59, #021d60, #011e6
 
 .custom-gradient {
   @apply bg-gradient-to-tr;
-  background-image: linear-gradient(233.46deg, #0436b6 3.57%, #052065 68.2%);
+  background: linear-gradient(233.46deg, #0436b6 3.57%, #052065 68.2%);
 }
 
 @media (max-width: 768px) {
