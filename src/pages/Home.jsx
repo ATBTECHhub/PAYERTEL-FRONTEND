@@ -23,7 +23,7 @@ const Home = () => {
       <Testimonial />
       <CustomerSupport />
       <Footer />
-      {/* <Waitlist /> */}
+      <Waitlist />
     </div>
   );
 };
