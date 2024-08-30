@@ -9,6 +9,7 @@ import GetStarted from "../ui/GetStarted";
 import CustomerSupport from "../ui/CustomerSupport";
 import Footer from "../ui/Footer";
 
+
 const Home = () => {
   return (
     <div className="">

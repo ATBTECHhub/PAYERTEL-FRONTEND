@@ -1,6 +1,7 @@
 
 
 const Request = {
-  signup: "/auth/signup",
+  signup: "auth/signup",
+  login: "auth/login",
 };
 export default Request
