@@ -1,6 +1,7 @@
 {
   "name": "payertel-frontend",
   "private": true,
+  "homepage": "https://payertel.com.ng/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

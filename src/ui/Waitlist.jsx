@@ -24,7 +24,7 @@ function Waitlist() {
 
   useEffect(() => {
     const calculateTimeLeft = () => {
-      let dest = new Date("Sep 30, 2024 23:59:59").getTime(); // Changed to 'Sep 30' to be a valid date
+      let dest = new Date("Sep 30, 2024 23:59:59").getTime();
       let now = new Date().getTime();
       let diff = dest - now;
 
