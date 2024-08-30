@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <ReactQueryDevtools initialIsOpen={false} />
         <BrowserRouter>
           <App />
-          {/* <Toaster
+          <Toaster
             position="top-center"
             gutter={12}
             containerStyle={{ margin: "8px" }}
@@ -42,8 +42,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 color: "var(--color-grey-700)",
               },
             }}
-          /> */}
-          <ToastContainer/>
+          />
+          <ToastContainer />
         </BrowserRouter>
       </QueryClientProvider>
     </ErrorBoundary>

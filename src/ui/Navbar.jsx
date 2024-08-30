@@ -8,7 +8,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <FadeIn className="top-0 left-0 z-50 sticky flex items-center bg-white shadow-lg backdrop-blur-2xl px-4 w-full h-16 md:h-20">
+    <FadeIn className="top-0 left-0 z-50 sticky flex items-center border-gray-50 bg-white shadow-lg backdrop-blur-2xl px-4 border-b w-full h-16 md:h-20">
       <div className="relative flex justify-between items-center mx-auto w-full max-w-screen-xl">
         <div className="flex justify-center items-center -ml-8 sm:-ml-6 w-48 md:w-48 overflow-clip">
           <a href="/#" className="block py-3 md:py-5 w-48 md:w-48">
@@ -28,7 +28,7 @@ const Navbar = () => {
               <span className="block relative bg-primary my-[6px] md:my-[6px] w-6 md:w-9 h-[2px] md:h-[4px]"></span>
             </button>
             <nav
-              className={`absolute right-0 top-full z-50 w-full max-w-[250px] rounded-lg rounded-t-none bg-white px-6 py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:shadow-none lg:dark:bg-transparent ${
+              className={`fixed right-0 top-full z-50 w-full max-w-[250px] rounded-lg rounded-t-none bg-white px-6 py-5 shadow lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:shadow-none lg:dark:bg-transparent ${
                 !open && "hidden"
               } `}
             >

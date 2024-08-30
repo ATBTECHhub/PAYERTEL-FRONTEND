@@ -10,7 +10,6 @@ import CustomerSupport from "../ui/CustomerSupport";
 import Footer from "../ui/Footer";
 import Waitlist from "../ui/Waitlist";
 
-
 const Home = () => {
   return (
     <div className="">
@@ -24,7 +23,7 @@ const Home = () => {
       <Testimonial />
       <CustomerSupport />
       <Footer />
-      <Waitlist />
+      {/* <Waitlist /> */}
     </div>
   );
 };
