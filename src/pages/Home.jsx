@@ -10,6 +10,7 @@ import CustomerSupport from "../ui/CustomerSupport";
 import Footer from "../ui/Footer";
 import Waitlist from "../ui/Waitlist";
 
+
 const Home = () => {
   return (
     <div className="">
