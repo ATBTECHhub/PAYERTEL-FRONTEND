@@ -10,8 +10,8 @@ const Footer = () => {
       <section className="px-4 pt-8 sm:pt-10 md:pt-12 lg:pt-16 primary-gradient">
         <div className="mx-auto max-w-screen-xl">
           <div className="gap-4 sm:gap-6 lg:gap-8 grid grid-cols-2 md:grid-cols-4">
-            <div className="flex flex-col justify-center items-center gap-4 px-4 self-center">
-              <Link to="home" className="max-w-20 md:max-w-24">
+            <div className="flex flex-col justify-center items-center gap-4 px-4 self-start">
+              <Link to="home" className="w-32 sm:w-48">
                 <Logo />
               </Link>
 
