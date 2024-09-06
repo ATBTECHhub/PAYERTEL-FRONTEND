@@ -21,11 +21,73 @@ export const services = [
   },
   {
     image: "/icon/airtime_to_cash.svg",
-    title: "Airtime  2 Cash",
+    title: "Airtime  to Cash",
     desc: "Convert your airtime to cash instantly.",
   },
 ];
-
+export const board = [
+  {
+    image:"/icon/data.svg",
+    title:`Data`,
+  },
+  {image: "/icon/airtime.svg",
+    title: `Airtime`
+  },
+  {
+    image: "/icon/light.svg",
+    title: `electricity`
+  },
+  {
+    image: "/icon/tv.svg",
+    title: `cable tv`
+  },
+  {
+    image: "/icon/airtime_to_cash.svg",
+    title: `airtime to cash`
+  }
+]
+export const provide = [
+  {
+    image: "/icon/mtn.svg"
+  },
+  {
+    image: "/icon/glo.svg"
+  },
+  {
+    image:"/icon/airtell.svg"
+  },
+  {
+    image:"/icon/etisalat.svg"
+  }
+]
+export const views = [
+  {
+    image:"/icon/dstv.svg"
+  },
+  {
+    image:"/icon/mtv.svg"
+  },
+  {
+    image:"/icon/startv.svg"
+  },
+  {
+    image:"/icon/gotv.svg"
+  }
+]
+export const power = [
+  {
+    image:"/icon/ekedc.svg"
+  },
+  {
+    image:"/icon/ikejadc.svg"
+  },
+  {
+    image:"/icon/kanodc.svg"
+  },
+  {
+    image:"/icon/enugudc.svg"
+  }
+]
 export const utilities = [
   {
     image: "/icon/customer-service.svg",
@@ -212,7 +274,7 @@ export const dashboard = [
 <rect x="10" y="10" width="100" height="100" rx="50" fill="#0436B6"/>
 <path d="M34.5 46V77.5H61.8449C61.2827 75.8057 60.9965 74.0335 60.997 72.25H45.0988C45.0988 70.8576 44.5405 69.5223 43.5466 68.5377C42.5528 67.5531 41.2049 67 39.7994 67V56.5C42.7406 56.5 45.0988 54.1637 45.0988 51.25H71.5958C71.5958 52.6424 72.1541 53.9777 73.1479 54.9623C74.1418 55.9469 75.4897 56.5 76.8952 56.5V56.6575C78.6705 56.6575 80.4458 56.9725 82.1946 57.55V46H34.5ZM58.3473 53.875C53.8428 53.9538 50.3982 57.2875 50.3982 61.75C50.3982 66.2125 53.8428 69.4675 58.3473 69.625C59.3542 69.625 60.3876 69.415 61.3679 69.0213C62.0834 66.1338 63.2757 63.4037 66.2169 60.7262C65.8989 57.235 62.5603 53.7962 58.3473 53.875ZM76.8952 59.125L82.857 65.0312L76.8952 70.9375V67C71.9932 67 68.7871 72.145 70.9598 76.5025L68.0717 79.3637C63.4082 72.3812 68.4426 63.0625 76.8952 63.0625V59.125ZM76.8952 88L70.9333 82.0938L76.8952 76.1875V80.125C81.7971 80.125 85.0032 74.98 82.8305 70.6225L85.7187 67.7612C90.3821 74.7437 85.3477 84.0625 76.8952 84.0625V88Z" fill="white"/>
 </svg>`,
-    heading: "Airtime to Cash",
+    heading: "Airtime 2 Cash",
   },
 ];
 

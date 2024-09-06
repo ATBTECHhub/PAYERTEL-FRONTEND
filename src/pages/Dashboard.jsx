@@ -1,121 +1,84 @@
 import { PiBellSimpleRingingBold } from "react-icons/pi";
 import { FaCirclePlus } from "react-icons/fa6";
-import { dashboard, foot, leg, transact } from "../constant/data";
+import {
+  board,
+  bundle,
+  dashboard,
+  foot,
+  leg,
+  services,
+  transact,
+} from "../constant/data";
+import { FaEye } from "react-icons/fa6";
+import Footer from "../ui/Footer";
 
 const Dashboard = () => {
   return (
-    <section>
-      <nav className="flex justify-between items-center container py-[40px]">
-        <div className="flex items-center gap-4">
-          <img src="/image/dash.png" alt="" />
-          <div className="grid pb-3">
-            {" "}
-            <h1 className="text-lg">Welcome!</h1>
-            <p className="text-sm">Dee-zigi</p>
-          </div>
-        </div>
-        <div>
-          {" "}
-          <PiBellSimpleRingingBold className="w-[33px] h-10" />
-        </div>
-      </nav>
-      <div className=" border-[3px]   py-[50px] w-[35%] mx-auto rounded-[40px] bg-primary">
-        {" "}
-        <div className="text-center">
-          {" "}
-          <p>Total Balance</p>
-          <h1 className=" font-bold text-3xl pt-4">NGN 600,000</h1>
-        </div>
-        <div className=" py-[49px] flex justify-center gap-[52px]">
-          {" "}
-          <div className="flex items-center">
-            <a className="border rounded-full py-4 px-12 leading-tight" href="">
-              Fund Wallet
-            </a>
-            <i className="absolute pl-40">
-              <FaCirclePlus />
-            </i>
-          </div>
-        </div>
-      </div>
-      <div className="flex container py-[115px] justify-center items-center space-x-20">
-        {dashboard.map((item, i) => (
-          <div
-            key={i}
-            className="border-x-4 border-b-4 py-[27px] px-[51px] rounded-b-2xl"
-          >
-            {" "}
-            <div dangerouslySetInnerHTML={{ __html: item.image }} />
-            <h1 className="text-center py-2 font-semibold text-xl">
-              {item.heading}
-            </h1>
-          </div>
-        ))}
-      </div>
-
-      <div className="w-[70%] mx-auto pb-8">
-        {transact.map((item, i) => (
-          <div key={i} className="">
-            {" "}
-            <div dangerouslySetInnerHTML={{ __html: item.image }} />
-          </div>
-        ))}
-      </div>
-
-      <div className=" pl-6 bg-primary py-6 px-8 ">
-        <div className="flex space-x-[126px]">
-          {foot.map((item, i) => (
-            <div key={i} dangerouslySetInnerHTML={{ __html: item.image }} />
-          ))}
-          <div className="block text-white">
-            {" "}
-            <h2 className="font-medium text-xl">Useful Links</h2>
-            <ul className="text-base w-[188px] leading-7">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>How It Works</li>
-              <li>Testimonials</li>
-              <li>Contacts</li>
-            </ul>
-          </div>
-          <div className="block text-white">
-            {" "}
-            <h3 className="font-medium text-xl">Services</h3>
-            <ul className="text-base w-[285px] leading-8">
-              <li>Data Bundle Purchase</li>
-              <li>Airtime Top-Ups</li>
-              <li>Airtime to Cash Conversion</li>
-              <li>Cable Network Subscription</li>
-            </ul>
-          </div>
-          <div className="flex items-center">
-            <a className="bg-white py-3 px-6 rounded-lg" href="">
-              Start Today{" "}
-            </a>
-          </div>
-        </div>
-        <div className=" py-[60px]">
-          {" "}
-          <hr />
-        </div>
-        <div className="flex items-center">
-          {leg.map((item, i) => (
-            <div key={i} className="flex space-x-[60px] text-white">
+    <main>
+      <section className=" max-w-screen-2xl mx-auto primary-gradient">
+        
+        <nav className="flex justify-between items-center container lg:py-10 py-5 pb-20">
+          <div className="flex items-center gap-4">
+            <img
+              className="lg:w-20 lg:h-20 w-10 h-10"
+              src="/image/dash.png"
+              alt=""
+            />
+            <div className="grid lg:pb-3 pb-1 text-white">
               {" "}
-              <div dangerouslySetInnerHTML={{ __html: item.image }} />
-              <h3>{item.heading1}</h3>
-              <h3>{item.heading2}</h3>
-              <h3>{item.heading3}</h3>
-              <h3>{item.heading4}</h3>
-              <div>
-                {" "}
-                <div dangerouslySetInnerHTML={{ __html: item.logo }} />
+              <h1 className="lg:text-lg text-xs">Welcome!</h1>
+              <p className="lg:text-sm text-xs">Dee-zigi</p>
+            </div>
+          </div>
+          <div className="text-white">
+            {" "}
+            <PiBellSimpleRingingBold className="lg:w-8 lg:h-10 w-4 h-5 " />
+          </div>
+        </nav>
+        <div className="bg-white rounded-t-3xl">
+          <div className="space-y-3  mx-auto text-center py-5 border rounded-3xl w-[80%] primary-gradient border-slate-100 md:w-[55%] lg:w-[40%] xl:w-[30%] -translate-y-6">
+            <div>
+              <p className="font-normal text-xs text-white md:text-xl">
+                Total Balance
+              </p>
+            </div>
+
+            <div className="flex items-center gap-3 pl-12">
+              <p className="font-bold text-xs text-white md:text-xl md:pl-20 xl:pl-20 pl-6">
+                NGN 600,000
+              </p>
+              <FaEye className="w-3 h-3 text-white" />
+            </div>
+
+            
+            <div className="flex py-3 pl-16 items-center space-x-1 md:pl-32 xl:pl-[130px]">
+              <button class="btn text-xs font-semibold border px-6 py-0.5 rounded-full text-primary bg-white md:py-1 md:px-8 md:text-base">
+                <i class=""></i> fund wallet
+              </button>
+              <div className="absolute pl-24 md:pl-32 ">
+                <FaCirclePlus className="w-3 h-3 text-primary md:w-5 md:h-5" />
               </div>
             </div>
-          ))}
+          </div>
+
+          <div className="grid grid-cols-2 py-6 gap-4 w-[75%] mx-auto  space-x-4 md:grid-cols-3 lg:grid-cols-5 ">
+            {board.map((item, i) => (
+              <div className=" border object-cover grid place-items-center border-slate-200 shadow-xl rounded-3xl py-4">
+                <img className=" h-10 w-10 xl:h-16 xl:w-16" src={item.image} alt="" />
+                <div className="text-center ">
+                  <h3 className="font-bold text-[8px] lg:text-base">{item.title}</h3>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="xl:w-[80%] mx-auto w-[85%]">
+            <img src="image/frameee.png" alt="" />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <Footer />
+    </main>
   );
 };
 

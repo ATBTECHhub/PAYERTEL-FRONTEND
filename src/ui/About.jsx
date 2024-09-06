@@ -30,7 +30,7 @@ const About = () => {
               <p className="font-normal text-base sm:text-lg md:text-xl">
                 PAYERTEL is a comprehensive platform designed to address the
                 telecom needs of users by offering services such as data bundle
-                purchases, airtime top-ups, airtime to cash consersions, and
+                purchases, airtime top-ups, airtime to cash conversions, and
                 cable network subscriptions. The platform aims to provide these
                 services at competitive rates while ensuring a seamless user
                 experience.

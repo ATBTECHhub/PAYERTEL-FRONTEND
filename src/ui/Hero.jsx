@@ -15,7 +15,7 @@ function Hero() {
           </h1>
           <p className="md:block hidden lg:w-[84%] font-normal text-base sm:text-lg md:text-xl leading-8">
             Welcome to PAYERTEL, your trusted platform for all your needs.
-            Wether you need to purchase data bundles, top up your airtime,
+            Whether you need to purchase data bundles, top up your airtime,
             convert your airtime to cash, or subscribe to cable networks,
             PAYERTEL offers a seamless and efficient solution at competitive
             rates. Our platform is designed to cater for busy proffessionals,
@@ -24,7 +24,7 @@ function Hero() {
           </p>
           <p className="block md:hidden font-normal text-base sm:text-lg md:text-xl leading-8">
             Welcome to PAYERTEL, your trusted platform for all your needs.
-            Wether you need to purchase data bundles, top up your airtime,
+            Whether you need to purchase data bundles, top up your airtime,
             convert your airtime to cash, or subscribe to cable networks.
           </p>
           <div className="py-4 font-medium text-base text-blue-900">
