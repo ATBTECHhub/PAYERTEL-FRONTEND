@@ -13,7 +13,7 @@ const GetStarted = () => {
               </h1>
 
               <p className="font-normal text-xl">
-                Join the growing community of users who trust PAYERTEL for thier
+                Join the growing community of users who trust PAYERTEL for their
                 telecom needs. Sign up now and experience the future of telecom
                 services.
               </p>
